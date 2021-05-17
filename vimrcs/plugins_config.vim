@@ -172,3 +172,16 @@ let g:ale_lint_on_enter = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vimwiki (my personal note organization plugin)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:vimwiki_conceallevel = 0
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
+
+command! WikiIndex :VimwikiIndex
+nmap <leader>ww <Plug>VimwikiIndex
+nmap <leader>wi <Plug>VimwikiDiaryIndex
+nmap <leader>w<leader>w <Plug>VimwikiMakeDiaryNote
+nmap <leader>wt :VimwikiTable<CR>
