@@ -2,6 +2,7 @@
 set -e
 
 cd ~/.vim_runtime
+python update_plugins.py
 
 echo 'set runtimepath+=~/.vim_runtime
 
