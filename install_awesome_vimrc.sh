@@ -22,7 +22,7 @@ endtry' > ~/.vimrc
 # but sometimes this is needed.
 # e.g.
 rm -rf ~/.vim_runtime/sources_non_forked/YouCompleteMe
-git clone https://github.com/ycm-core/YouCompleteMe.git ~/.vim_runtime/sources_non_forked/
+git clone https://github.com/ycm-core/YouCompleteMe.git ~/.vim_runtime/sources_non_forked/YouCompleteMe
 cd ~/.vim_runtime/sources_non_forked/YouCompleteMe
 git submodule update --init --recursive
 python3 install.py
