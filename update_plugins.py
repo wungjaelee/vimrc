@@ -60,6 +60,7 @@ vim-python-pep8-indent https://github.com/Vimjas/vim-python-pep8-indent
 mru.vim https://github.com/vim-scripts/mru.vim
 vimwiki https://github.com/vimwiki/vimwiki
 vim-startify https://github.com/mhinz/vim-startify
+YouCompleteMe https://github.com/ycm-core/YouCompleteMe
 """.strip()
 
 GITHUB_ZIP = "%s/archive/master.zip"
