@@ -177,8 +177,9 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 " => vimwiki (my personal note organization plugin)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:vimwiki_conceallevel = 0
-let g:vimwiki_list = [{'path': '~/vimwiki/',
-                      \ 'syntax': 'markdown', 'ext': '.md'}]
+let g:vimwiki_list = [
+            \{'path': '~/Dropbox/wiki/', 
+            \ 'syntax': 'markdown', 'ext': '.md'}]
 
 command! WikiIndex :VimwikiIndex
 nmap <leader>ww <Plug>VimwikiIndex
